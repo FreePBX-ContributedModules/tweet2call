@@ -164,11 +164,6 @@ function getDMs()
 	// Store the time of the last tweet
 	file_put_contents(TEMP_LASTTWEET, $last);
 		logToFile(LOG_FILE, "Polling Finished Last DM pulled was $last");
-	/* XXX
-	return array(31854897 => array('sender' => 'god', 'msg' => 'Hello. Please help. I need support. Please call me at 4802253448'),
-				 31852298 => array('sender' => 'satan', 'msg' => 'Billing me at 9119531111'),
-				);
-	*/
 	
 	// Return said array of DM's
 	return $dm;

@@ -6,6 +6,7 @@
 	<canuninstall>yes</canuninstall>
 	<changelog>
 		*0.1.0.0* Original Release (beta)
+                *0.2.0.0* Tested much more stabler
 	</changelog>
 	<description>
 	Polls a specified twitter account and generates calls based on specialy formatted DMS
